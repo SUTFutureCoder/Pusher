@@ -45,6 +45,14 @@
 			"ImportPath": "github.com/astaxie/beego/utils",
 			"Comment": "v1.8.0",
 			"Rev": "323a1c4214101331a4b71922c23d19b7409ac71f"
+		},
+		{
+			"ImportPath": "github.com/google/go-github/github",
+			"Rev": "2966f2579cd93bc62410f55ba6830b3925e7629d"
+		},
+		{
+			"ImportPath": "github.com/google/go-querystring/query",
+			"Rev": "53e6ce116135b80d037921a7fdd5138cf32d7a8a"
 		}
 	]
 }
