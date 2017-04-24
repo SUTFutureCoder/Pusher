@@ -9,6 +9,8 @@ func init() {
     beego.Router("/", &controllers.MainController{})
 	beego.Router("/scm/", &controllers.ScmController{}, "get,post:BindScm")
 
+	beego.Router("/command/", &controllers.CommandController{}, "get:ExecTest")
+
 	beego.Router("/oauth/", &controllers.OauthController{}, "get:Oauth")
 	beego.Router("/oauth/echo", &controllers.OauthController{}, "get:OauthEcho")
 }
